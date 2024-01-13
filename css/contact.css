@@ -1,0 +1,70 @@
+
+*{
+    padding:0;
+    margin: 0%;
+    box-sizing:border-box;
+
+}
+body{
+background-color:#eef3f7;
+Card Color - #fff
+Main Text Color - #000
+Sub Text Color - #4d4d4d
+Button/Hover Effect Color - #fb5f04}
+.container{
+    width:60%;
+    padding:45px;
+    border-radius:0;
+    position:abolute;
+    left:50%;
+    top:50%;
+    transform: traslate(-50%, -50%);
+}
+.row{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.col-md-7{
+    padding:20px;
+}
+.col-md-5{
+    background-color: #fff;
+    padding: 20px;
+    color:#4d4d4d;
+}
+.form-control{
+    height:52px;
+    background:#4d4d4d;
+    color:#000;
+    font-size: 14px;
+    border-radius: 2px;
+    box-sizing: none important ;
+    border:1px solid black;
+
+}
+.bi{
+    font-sizing:20px;
+
+}
+.d-flex p{
+    font-sizing:18px;
+    padding-left: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.butn
+{
+    margin-top: 7px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color:#4d4d4d;
+    color:#000;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 7px;;
+}
+@media only screen and(max-width:600px){
+    .container{
+        width:100%;
+        position:absolute;
+        left:50%;
+        top:80%;
+    }
+}
