@@ -11,10 +11,50 @@
 </head>
 
 <body>
-    <div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary mt-2">
+        <div class="container-fluid mx-5">
+          <a class="navbar-brand ms-md-5 ms-md-0 fs-3 ha" href="#">Name</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link ms-md-3 ms-md-0 fs-5" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle ms-md-3 ms-md-0 fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menu
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item fs-5" href="#">Action</a></li>
+                  <li><a class="dropdown-item fs-5" href="#">Another action</a></li>
+                  <li><a class="dropdown-item fs-5" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-md-3 ms-md-0 active fs-5" href="#">Review</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-md-3 ms-md-0 fs-5" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-md-3 ms-md-0 fs-5" href="./contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-md-3 ms-md-0 me-5 fs-5 rounded border bag text-center" href="#">Order Now</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+    <div class="mt-4">
         <div class="container">
             <div class="row">
-                <div class="my-5 d-md-flex d-sm-block justify-content-around">
+                <div class="my-5 d-flex flex-sm-column flex-lg-row justify-content-around">
                     <img src="../images/review.png" class="w-50">
                     <div class="card w-50 mx-5 shadow p-4 px-5">
                         <h4 class="my-3 col-6">WRITE A REVIEW</h4>
